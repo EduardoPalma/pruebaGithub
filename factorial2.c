@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_DIGITOS 10000
+#define MAX 999999999
 
 int factorial(int);
 int factorial_recursivo(int);
@@ -8,36 +9,38 @@ void factorial_n2(int,int[],int*);
 void guardad_digitos(int,int*,int[]);
 void imprimir(int[],int);
 void rellenar(int[]);
+void factoriales(int);
 
 int main(){
-	int num = 15;
+	int num = 12;
 	int resultado[MAX_DIGITOS];
 	int tam_resultado = 0;
 	printf("el factorial de %d es : %d",num,factorial(num));
 	printf("\nel factorial de %d recursivo es : %d\n",num,factorial_recursivo(num));
 	rellenar(resultado);
 	factorial_n2(num,resultado,&tam_resultado);
-	printf("el factorial de %d en el vector es : ",num);
+	printf("(ACTIVIDAD 2)el factorial de %d en el vector es : \n",num);
 	imprimir(resultado,tam_resultado);
+	printf("factoriales de n terminos \n");
+	factoriales(num);
 }
                                     
 int factorial(int num){
-	int valor = num;
-	int factor = 1;
-	while(valor > 0){
-		factor = factor * valor;
-		valor= valor-1;
-	}
-	
-	return factor;
+	int resultado = 1;
+    for(int i=2;i<=num;i++){
+      if((i <= num) && (resultado > (MAX/i))){
+        return 0;
+      }
+      resultado = resultado*i;
+    }
+    return resultado;
 }
 
 int factorial_recursivo(int num){
-	if(num == 0){
-		return 1;
-	}else{
-		return (factorial_recursivo(num-1)*num);
-	}
+	if(num <= 12){
+		if(num == 0)return 1;
+		else return (factorial_recursivo(num-1)*num);
+	}return 0;
 }
 
 void rellenar(int resultado[MAX_DIGITOS]){
@@ -81,3 +84,11 @@ void factorial_n2(int n,int resultado[MAX_DIGITOS],int *tam_resultado){
 	}
 }
 
+void factoriales(int num){
+  int i;
+  int valor = 0;
+  for(i=1;i<=num;i++){
+    valor = factorial(i);
+    printf(" factorial de %d es : %d\n",i,valor);
+  }
+}
