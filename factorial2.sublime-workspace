@@ -1,0 +1,362 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max"
+			],
+			[
+				"valor",
+				"valor"
+			],
+			[
+				"factorai",
+				"factorial_n2"
+			],
+			[
+				"ma",
+				"MAX_DIGITOS"
+			],
+			[
+				"st",
+				"stdlib.h\tstandard header"
+			],
+			[
+				"std",
+				"stdio.h\tstandard header"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "factorial2.c",
+			"settings":
+			{
+				"buffer_size": 2091,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git re",
+				"Git: Remote"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"git rem",
+				"Git: Remote"
+			],
+			[
+				"git pu",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git i",
+				"Git: Init"
+			],
+			[
+				"git remo",
+				"Git: Remote"
+			],
+			[
+				"gir mer",
+				"Git: Merge"
+			],
+			[
+				"git pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"gir rem",
+				"Git: Remote"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git in",
+				"Git: Init"
+			],
+			[
+				"git status ",
+				"Git: Status"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"git p",
+				"Git: Pull Current Branch"
+			],
+			[
+				"GIT STA",
+				"Git: Status"
+			],
+			[
+				"git remove",
+				"Package Control: Remove Repository"
+			],
+			[
+				"git init",
+				"Git: Init"
+			],
+			[
+				"git ini",
+				"Git: Init"
+			],
+			[
+				"gir pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"GIt remo",
+				"Git: Remote"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"packeg",
+				"Package Control: Install Package"
+			],
+			[
+				"pace",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Git: Add Remote"
+			],
+			[
+				"GIT ADD",
+				"Git: Quick Add"
+			],
+			[
+				"git sa",
+				"Git: Status"
+			],
+			[
+				"gi",
+				"Git: Init"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/hello/Desktop/tareas/factorial2.c",
+		"/C/Users/hello/Desktop/factorial/main.c",
+		"/C/Users/hello/Desktop/factorial/factorial2.c",
+		"/C/Users/hello/Desktop/c y c++/estructuras_datos.cpp",
+		"/C/Users/hello/Desktop/c y c++/factorial.exe",
+		"/C/Users/hello/Desktop/tareas/factorial.c",
+		"/C/Users/hello/Desktop/Actividad_01.c",
+		"/C/Users/hello/Desktop/c y c++/pruebva.c",
+		"/C/Users/hello/AppData/Roaming/Sublime Text 3/Packages/User/CPP.sublime-build"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "factorial2.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/CPP.sublime-build",
+	"project": "factorial2.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
